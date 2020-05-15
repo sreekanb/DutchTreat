@@ -31,7 +31,8 @@ namespace DutchTreat
             }
             else
             {
-                app.UseExceptionHandler("/error");
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
             }
             
             app.UseStaticFiles();

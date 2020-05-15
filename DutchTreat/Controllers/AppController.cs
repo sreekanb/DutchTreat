@@ -47,7 +47,7 @@ namespace DutchTreat.Controllers
 
         public IActionResult About()
         {
-            //throw new InvalidOperationException("Fake Error");
+            throw new InvalidOperationException("Fake Error");
             return View();
         }
 
